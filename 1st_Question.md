@@ -1,8 +1,8 @@
 Omneya Hussien Abdelrahiem
 33722
 ---------------------------------------------------
-1-class: it's a fundamental oop item, that contain a bunch of functions and proberties that describe the behavior of a group
-of similar objects.
+1-class: it's a fundamental oop item, that contain a bunch of functions and proberties that describe the behavior of a group of similar objects.
+
 -------
 2-class contains functions and proberties, when we use class we hide alot of functions and only use an object from the class
 so it's apply encapsulation
