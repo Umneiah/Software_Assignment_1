@@ -1,9 +1,4 @@
-###
 
-Omneya Hussien Abdelrahiem
-33722
-
----------------------------------------------------
 ###
 1-class: it's a fundamental oop item, that contain a bunch of functions and proberties that describe the behavior of a group of similar objects.
 
