@@ -1,3 +1,5 @@
+#ifndef BankAccount_H_
+#define BankAccount_H_
 
 #include <iostream>
 #include <string>
@@ -11,8 +13,9 @@ private:
 
 public:
 	Bank_account();   //default constructor
-	Bank_account(const string &depositor_name, const string &account_number, double balance);
+	Bank_account(const string &name, const string &number, double balanc);
 	void show();
 	void deposite(double n);
 	void withdraw(double n);
 };
+#endif
