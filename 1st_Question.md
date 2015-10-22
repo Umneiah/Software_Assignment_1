@@ -13,15 +13,10 @@ so it's apply encapsulation
 4-i think the main difference that A member function is something you call to perform an action and maybe return some data or operate on the data member 
 A member holds some sort of data, could be a value.
 ----------
-5-
---------
 6- Constructor is called automatically when an object is first created 
 .destructor is called to deallocate memory that was allocate by constructor or deleted object.
 -------
-7- bank_account () {} //the same name of class with no data and don't return value
-or "if outside class"
-bank_account :: bank_account ()
-
+7- bank_account () { //contents } 
 --------
 8-A default constructor is a constructor which can be called with no arguments.
 ---------
