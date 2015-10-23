@@ -14,7 +14,7 @@ private:
 public:
 	Person() { lname = ""; fname[0] = '\0'; } // #1
 	Person(const string & ln, const char * fn = "Heyyou"); // #2
-									
+
 	void Show() const; // firstname lastname format    
 	void FormalShow() const; // lastname, firstname format
 };
