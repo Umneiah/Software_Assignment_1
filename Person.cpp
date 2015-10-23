@@ -1,19 +1,36 @@
 
 #include "Person.h"
-#include <iostream>
-#include <string> 
 
-using namespace std;
-
-class Person {
-private:
-	static const int LIMIT = 25;
-	string lname; // Person’s last name
-	char fname[LIMIT]; // Person’s first name
-public:
-	Person() { lname = ""; fname[0] = '\0'; } // #1
-	Person(const string & ln, const char * fn = "Heyyou"); // #2
-														   // the following methods display lname and fname
-	void Show() const; // firstname lastname format
-	void FormalShow() const; // lastname, firstname format
+Person::Person(const string &ln, const char *fn ) // *fn ya3ny momkn ab3tloh array
+{
+  lname = ln;
+  strcpy(fname, fn); //copy string fn into fname 
 };
+
+void Person::Show() const {
+ cout << *fname << " " << lname << endl; 
+};
+
+void Person::FormalShow() const {
+ cout << lname << " " << *fname << endl; 
+};
+
+int main() {
+	Person one; 
+	Person two("SandraBollock"); // use #2 with one default argument
+	Person three("potter", "Harry"); // use #2, no defaults
+	one.Show();
+	cout << endl;
+	one.FormalShow();
+
+	two.Show();
+	two.FormalShow();
+	cout << endl;
+
+	three.Show();
+	three.FormalShow();
+	cout << endl;
+
+	system("pause");
+	return 0;
+}
