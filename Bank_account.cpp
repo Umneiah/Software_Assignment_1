@@ -12,9 +12,9 @@ Bank_account::Bank_account(const string &name, const string &number, double bala
 
 
 void Bank_account::show() {
-	cout << "Depositor's name" << depositor_name <<endl
-		<< "Account number" << account_number << endl
-		<< "Balance" << balance << endl;
+	cout << "Depositor's name" << depositor_name <<endl;
+	cout << "Account number" << account_number << endl;
+	cout << "Balance" << balance << endl;
 }
 
 void Bank_account::deposite(double n) {
@@ -31,11 +31,11 @@ int main() {
 	bank_account.show();
 
 	cout << "Deposite money" << endl;
-	bank_account.deposite(100.2);
+	bank_account.deposite(1000.2);
 	bank_account.show();
 
 	cout << "withdraw money" << endl;
-	bank_account.withdraw(50.1);
+	bank_account.withdraw(500.1);
 	bank_account.show();
 
 	return 0;
