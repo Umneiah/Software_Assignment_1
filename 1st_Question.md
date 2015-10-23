@@ -32,4 +32,6 @@ A member holds some sort of data, could be a value.
 
 ---------
 ###
-10- this : is a pointer point to the object itself or member functions in class.
+10- this : is a pointer point to the object itself or member functions in class 
+  this is the address of object
+ *this represents the object itself.
