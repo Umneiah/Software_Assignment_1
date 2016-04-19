@@ -1,6 +1,6 @@
 
 ###
-1-class: it's a fundamental oop item, that contain a bunch of functions and proberties that describe the behavior of a group of similar objects.
+1-class: it's a fundamental oop item, that contain a bunch of functions and properties that describe the behavior of a group of similar objects.
 
 -------
 ###
