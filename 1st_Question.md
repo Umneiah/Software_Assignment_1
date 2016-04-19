@@ -4,7 +4,7 @@
 
 -------
 ###
-2-class contains functions and proberties, when we use class we hide alot of functions and only use an object from the class
+2-class contains functions and properties, when we use class we hide alot of functions and only use an object from the class
 so it's apply encapsulation
 .class has a public and private data, so it's apply data hiding and abstraction
 
